@@ -12,7 +12,8 @@ src/
 ... witai_handler.js    // handle wit.ai request and respond
 ... fbmessenger.js      // handle facebook messenger messages and postbacks
 ... telegram_bot.js     // handle telegram bot setting
-all_courses.json        // dummy courses json file
+... courseJsonGenerator.js // Refresh courses json file
+courses.json        // courses json file
 index.js                // expressjs webhook for facebook messenger
 ```
 
